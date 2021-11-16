@@ -5,22 +5,38 @@
 </head>
 <body>
 <form action="/madlib">
-    <p><label>Person:</label>
-        <input type="text" name="person"></p>
-    <p><label>Noun:</label>
-        <input type="text" name="noun"></p>
     <p><label>Adjective:</label>
-            <input type="text" name="adjective"></p>
-    <p><label>Colour:</label>
-            <select name="color">
-                <option value="red">Red</option>
-                <option value="blue">Blue</option>
-                <option value="purple">Purple</option>
-                <option value="yellow">Yellow</option>
-                <option value="green">Green</option>
-                <option value="black">Black</option>
-                <option value="pink">Pink</option>
-            </select>
+        <input type="text" name="adjective1"></p>
+
+    <p><label>Adjective:</label>
+        <input type="text" name="adjective2"></p>
+
+    <p><label>Type of birds:</label>
+        <select name="bird">
+            <option value="crow">Crow</option>
+            <option value="hummingbird">Hummingbird</option>
+            <option value="owl">Owl</option>
+        </select>
+
+    <p><label>Room in the house:</label>
+        <input type="checkbox" name="room" value="bedroom">
+        <label>bedroom</label>
+        <input type="checkbox" name="room" value="dining room">
+        <label>dining room</label>
+        <input type="checkbox" name="room" value="lounge">
+        <label>lounge</label>
+
+    <p><label>Verb (past tense):</label>
+        <input type="text" name="past_verb"></p>
+
+    <p><label>Verb (current tense):</label>
+        <input type="radio" name="current_verb" value="walk">
+        <label>walk</label>
+        <input type="radio" name="current_verb" value="dance">
+        <label>dance</label>
+        <input type="radio" name="current_verb" value="run">
+        <label>run</label>
+
     <p><input type="submit"></p>
 </form>
 </body>
